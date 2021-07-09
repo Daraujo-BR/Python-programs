@@ -51,11 +51,4 @@ def math_tutor():
     print(together)
 
 #Call function
-math_tutor()
-
-#OQ falta (ideias):
-# Mostrar o quanto acertou em %
-
-
-
-        
+math_tutor()        
