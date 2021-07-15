@@ -6,10 +6,10 @@ import datetime
 #Greetings
 print('Welcome, talking about you...')
 #Some questions that will form the story
-name = input('Whats your name? ') #Aprender a colocar o apostolo deentor das aspas
+name = input('What\'s your name? ')
 age = int(input('How old are you? '))
-food = input('Whats your favorite food? ')
-place = input('What is the place would you like to visit? ')
+food = input('What\'s your favorite food? ')
+place = input('What\' the place would you like to visit? ')
 people = input('Who would you like to be with? ')
 do_there = input('What would you like to do there? ')
 do_now = input('What are you doing right now? ')
