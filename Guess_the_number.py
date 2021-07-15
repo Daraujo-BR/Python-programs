@@ -1,4 +1,6 @@
-#Colocar as instruções
+'''The idea behind the code
+The computer choose a number between 1 and 100, try to know what number is it. Don't worry, the computer will give you some clues to help.
+'''
 
 import random
 #Creating the variable that saves the value of user!
