@@ -3,7 +3,6 @@ It's a simple program that prints a little story formed by the answes of users''
 
 import datetime
 
-#Greetings
 print('Welcome, talking about you...')
 #Some questions that will form the story
 name = input('What\'s your name? ')

@@ -26,6 +26,5 @@ while user!= number:
     #Conditional to know if number that user tried is higher than the number computer choose
     else: 
         print('The number is smaller! Give it another try! ')
-#Conditional if user got the right number
 if user == number:
         print('Congratulations!')

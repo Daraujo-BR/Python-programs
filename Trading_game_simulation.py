@@ -1,11 +1,10 @@
 ''' The idea behind the program:
 At the beginning of the game, the user receives the value of 1000 dollars, his objective is to reach the maximum value (25,000 dollars)! If the black or green ball comes out, the user wins the amount that was bet, if the ball that comes out is red or white, the user loses the bet amount! The player loses the game if in any bet he loses half the amount he has in the previous round. After each round the user can decide whether or not to continue the game. GOOD GAME!'''
 
-#Username
+
 name = input('Welcome guest! What\'s your name?')
-#Introduction!
+#Introduction
 print(f'It\'s nice to meet you, {name}! Take 1000 dollars, if you can reach 25000 dollars playing this game, it is all yours! If you do not reach that amount, what you win is all mine haha! Ah yes, if at any time you lose half of the total amount you had in the previous round, you lose the game! Good luck!')
-#Function to call the game
 def trade_game():
     import random
     #Bag that has the balls to remove at every bet (3x green - 5x red - 5 white - 10 black)
@@ -54,7 +53,7 @@ def trade_game():
          #Condition if you place a value greater than what you have in your portfolio
         else:
             print('You entered a value greater than what you have in your wallet!')
-    #Compliments for playing
+    
     print(f'Thanks for playing! Portfolio value: {balance} dollars')
-#Function call
+
 trade_game()
